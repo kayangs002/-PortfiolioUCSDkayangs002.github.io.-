@@ -1,0 +1,218 @@
+#title {
+  background-color: lightseagreen;
+
+}
+
+.container-fluid{
+ padding: 5% 5%; 
+}
+
+h1 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.big-title{
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+h3 {
+  font-family:"Oswald";
+  font-weight: bold;
+
+} 
+
+/*Navigation Bar*/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: 'Oswald';
+  font-size: 2.5rem;
+  font-weight: bold; 
+}
+
+.nav-item {
+  padding: 0 18px 
+}
+
+.nav-link {
+  font-family: 'Oswald';
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+/* Title Image */
+
+.title-image {
+  width: 100%;
+  height: auto;
+  position: right;
+  padding-bottom: 20%;
+  
+
+}
+
+
+/* Project */
+
+#project {
+  padding: 100px;
+  background-color: white;
+  position: relative;
+  z-index: 1; 
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  text-align: center;
+
+  
+}
+
+/* Add padding to the card body */
+.card-body {
+padding-top: 90px; 
+
+}
+
+.card-img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Add a border to the cards */
+.card {
+  border: 4px solid #ccc; /* Change color and style as needed */
+  border-radius: 9px; /*Rounded corners for the cards */
+  margin-bottom: 20px; /* Optional: Add margin between cards */
+  
+}
+
+.card-img-top {
+ width: 100%;
+ height: auto;
+}
+
+
+.card-deck {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card-text {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  color: grey;
+  font-size: 20px;
+}
+
+.card-title {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+}
+
+.btn-info {
+  font-family: 'Nunito', san-serif;
+
+}
+
+.card:hover {
+  box-shadow: 0 10px 15px 0 grey;
+}
+
+/*About*/
+.About {
+  background-color: lightseagreen;
+  padding: 90px;
+  text-align: center;
+
+}
+
+.aboutmetitle{
+  text-align: center;
+  padding-left: 30px;
+  font-family: 'Nunito', san-serif;
+  font-size: 45px;
+  padding-bottom: 5%;
+}
+
+.about-text {
+  font-size: 35px;
+  font-weight: bold;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: white;
+  border: 5px solid white;
+  padding-inline: 5%;
+  font-family: 'Nunito', sans-serif;
+  text-align: left;
+  
+  
+}
+
+.pictureofme{
+  width: 100%;
+  max-width:400px;
+  height: auto;
+  padding-bottom: 8%;
+  
+}
+
+
+/* Contact section*/
+
+#contact {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  
+}
+
+
+.social-icon{
+  margin: 20px 10px;
+  position: center;
+  
+}
+
+/*Media Query Section */
+
+@media (max-width: 1028px) {
+  #title{
+   text-align: center; 
+  }
+  .title-image{
+    position:static;
+    transform: rotate(0);
+  }
+  .pictureofme {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .about-text {
+    max-width: 100%;
+  }
+
+  .card-img {
+    height: auto;
+  }
+}
